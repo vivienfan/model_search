@@ -22,9 +22,9 @@ def main(argv):
       filename="../../model_search/data/testdata/csv_random_data.csv"),
     spec="../../model_search/configs/dnn_config.pbtxt")
   trainer.try_models(
-    number_models=20,
-    train_steps=100,
-    eval_steps=10,
+    number_models=200,
+    train_steps=1000,
+    eval_steps=100,
     root_dir="./",
     batch_size=32,
     experiment_name="example0",

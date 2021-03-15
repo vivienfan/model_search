@@ -39,7 +39,7 @@ def train():
     eval_steps=1,
     root_dir="./",
     batch_size=512,
-    experiment_name="example1",
+    experiment_name="example2",
     experiment_owner="model_search_user")
 
 def main(argv):
